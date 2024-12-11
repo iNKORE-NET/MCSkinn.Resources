@@ -1,0 +1,123 @@
+{
+    "$id": "http://schemas.inkore.net/app/mcskinn/packs/game/jigsaw",
+    "title": "Jigsaw Item",
+    "description": "Those visual illustration thing to display in the 'Part' panel to toggle parts quicky without reading the complex tree",
+    "type": "object",
+
+    "properties":
+    {
+        "description":
+        {
+            "type": "object",
+            "title": "Description",
+            "properties":
+            {
+
+            },
+
+            "additionalProperties": false
+        },
+
+        "sections":
+        {
+            "type": "array",
+            "items":
+            {
+                "type": "object",
+                "properties":
+                {
+                    "identifier": { "type": "string" },
+                    "texture": { "type": "string" },
+                    "canvasSize":
+                    {
+                        "type": "array",
+                        "items": { "type": "number" },
+                        "maxItems": 2, "minItems": 2,
+                        "description": "The size of the canvas of this section. [0] for width, [1] for height."
+                    },
+
+                    "blocks":
+                    {
+                        "type": "array",
+                        "items":
+                        {
+                            "type": "object",
+                            "properties":
+                            {
+                                "objects":
+                                {
+                                    "$ref": "../common.json#/definitions/type_geoObjectSelectors"
+                                },
+
+                                "texture":
+                                {
+                                    "type": "string",
+                                    "description": "The texture file that this block uses. If not defined, the texture of parent section will be used."
+                                },
+
+                                "textureArea":
+                                {
+                                    "$ref": "../common.json#/definitions/type_rect",
+                                    "description": "The rect of the texture that fills this block. The value must have 4 items - [x, y, width, height]."
+                                },
+
+                                "textureMirror":
+                                {
+                                    "type": [ "boolean", "array" ],
+                                    "description": "Whether to mirror the selected area of texture. If array, the input orientation will be mirrord; If true, mirror horizontally",
+                                    "items":
+                                    {
+                                        "type": "string",
+                                        "enum": [ "horizontal", "vertical" ]
+                                    }
+                                },
+
+                                "placement":
+                                {
+                                    "type": "array",
+                                    "items": { "type": "number" },
+                                    "description": "Which location to put this block into the canvas. Length must be 2 or 4. If there're 4 items, they will be - [x, y, width, height]. If 2 items found, they will be - [x, y], and the width and height will be picked from textureArea property.",
+                                    "anyOf":
+                                    [
+                                        { "minItems": 2, "maxItems": 2 },
+                                        { "minItems": 4, "maxItems": 4 }
+                                    ]
+                                },
+
+                                "associatedObjects":
+                                {
+                                    "$ref": "../common.json#/definitions/type_geoObjectSelectors",
+                                    "description": "When toggling a block with shift key pressed, all the associated objects will be toggled as well."
+                                },
+
+                                "description":
+                                {
+                                    "type": "string",
+                                    "description": "Override the description"
+                                }
+                            },
+
+                            "required": [ "objects", "placement" ]
+                        }
+                    },
+
+                    "description":
+                    {
+                        "properties":
+                        {
+                            "displayName": { "type": "string" }
+                        }
+                    }
+                },
+
+                "required": [ "identifier", "canvasSize", "blocks" ],
+                "additionalProperties": false
+            }
+        }
+    },
+
+    "additionalProperties": false,
+    "required": [ "sections" ],
+    "allowTrailingCommas": true,
+    "allowComments": true
+}

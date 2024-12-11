@@ -1,0 +1,40 @@
+{
+    "git.ignoreLimitWarning": true,
+
+    "[json]":
+    {
+        "editor.wordWrap": "on"
+    },
+
+    "json.schemas":
+    [
+        {
+            "fileMatch": [ "/packs/games/**/info.json" ],
+            "url": "./schemas/game/info.schema.json"
+        },
+        {
+            "fileMatch": [ "/packs/games/**/locales/*.json" ],
+            "url": "./schemas/game/locale.schema.json"
+        },
+        {
+            "fileMatch": [ "/packs/games/**/entities/*.json" ],
+            "url": "./schemas/game/entity.schema.json"
+        },
+        {
+            "fileMatch": [ "/packs/games/**/models/*.patch.json" ],
+            "url": "./schemas/game/model-patch.schema.json"
+        },
+        {
+            "fileMatch": [ "/packs/games/**/jigsaws/*.json" ],
+            "url": "./schemas/game/jigsaw.schema.json"
+        },
+
+        // -----------
+
+        {
+            "fileMatch": [ "/packs/footages/**/info.json" ],
+            "url": "./schemas/footages/info.schema.json"
+        },
+
+    ]
+}

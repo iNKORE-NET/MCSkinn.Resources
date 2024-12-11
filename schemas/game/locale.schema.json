@@ -1,0 +1,24 @@
+{
+    "$id": "http://schemas.inkore.net/app/mcskinn/packs/game/locale",
+    "title": "Locale Item",
+    "description": "Data that contains the locale information for the pack.",
+    "type": "object",
+    "properties":
+    {
+        "locale":
+        {
+            "description": "The identifier of the locale item. For example, `en-US`, `zh-CN`.",
+            "type": "string"
+        },
+
+        "translations":
+        {
+            "type": "object",
+            "description": "The keys and values of the translations."
+        }
+    },
+
+    "required": [ "locale", "translations" ],
+    "allowTrailingCommas": true,
+    "allowComments": true
+}

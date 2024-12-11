@@ -1,0 +1,38 @@
+{
+    "$id": "http://schemas.inkore.net/app/mcskinn/packs/common",
+    "title": "Jigsaw Item",
+    "description": "The common definitions for all other schemas,",
+
+    "definitions":
+    {
+        "type_geoObjectSelector":
+        {
+            "type": "object",
+            "description": "To point a cube, set the parent bone id and the index of cube; to point a bone, 'cube' property is not used.",
+            "properties":
+            {
+                "bone": { "type": "string" },
+                "cube": { "type": "number" }
+            },
+            "required": [ "bone" ],
+            "additionalProperties": false
+        },
+
+        "type_geoObjectSelectors":
+        {
+            "type": "array",
+            "items":
+            {
+                "$ref": "#/definitions/type_geoObjectSelector"
+            }
+        },
+
+        "type_rect":
+        {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 4, "maxItems": 4,
+            "description": "The value must have 4 items - [x, y, width, height]."
+        }
+    }
+}

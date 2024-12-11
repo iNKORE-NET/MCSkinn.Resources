@@ -1,0 +1,49 @@
+{
+    "$id": "http://schemas.inkore.net/app/mcskinn/packs/game/model-patch",
+    "title": "Patch Item",
+    "description": "A patch file that add or changes additional properties of a model.",
+    "type": "object",
+    "patternProperties":
+    {
+        ".*":
+        {
+            "properties":
+            {
+                "bones":
+                {
+                    "patternProperties":
+                    {
+                        ".*":
+                        {
+                            "properties":
+                            {
+                                "title": { "type": "string" },
+                                "cubes":
+                                {
+                                    "type": "array",
+                                    "items":
+                                    {
+                                        "type": "object",
+                                        "properties":
+                                        {
+                                            "title": { "type": "string" },
+                                            "titleFallback": { "type": "string" },
+                                            "inflate": { "type": [ "string", "number" ] }
+                                        },
+
+                                        "additionalProperties": false
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "additionalProperties": true
+                }
+            }
+        }
+    },
+
+    "required": [ ],
+    "allowTrailingCommas": true,
+    "allowComments": true
+}

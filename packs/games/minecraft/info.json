@@ -1,0 +1,12 @@
+{
+    "identifier": "minecraft",
+    "type": "game",
+
+    "description":
+    {
+        "displayName": "Minecraft",
+        "descriptionKey": "The vanilla Minecraft experience.",
+        "authors": [ "Mojang Studios", "Yoojun Zhou" ],
+        "version": "1.21.30.3"
+    }
+}

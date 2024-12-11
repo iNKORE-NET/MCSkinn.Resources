@@ -1,0 +1,28 @@
+{
+    "identifier": "minecraft:allay",
+    "description":
+    {
+        "displayName": "{entity.allay}"
+    },
+
+    "data":
+    {
+        "model":
+        {
+            "path": "%CURRENT_PACK%/models/entity/allay.geo.json",
+            "identifier": "geometry.allay"
+        },
+
+        "animations": "%CURRENT_PACK%/animations/allay.animation.json",
+        "animations_controller": "%CURRENT_PACK%/animations_controllers/allay.animation_controller.json",
+        "entity": "%CURRENT_PACK%/models/entity/allay.entity.json",
+
+        "templates":
+        [
+            {
+                "displayName": "{default}",
+                "texture": "%CURRENT_PACK%/textures/allay.png",
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "identifier": "mcskinn",
+    "type": "game",
+
+    "description":
+    {
+        "displayName": "MCSkinn",
+        "descriptionKey": "Built-in MCSkinn essentials pack.",
+        "authors": [ "Yoojun Zhou", "Mojang Studios" ],
+        "version": "1.0.0"
+    },
+
+    "volumes":
+    [
+        "volume-0", // Directly from Minecraft vanilla resource pack, no modifications
+    ]
+}

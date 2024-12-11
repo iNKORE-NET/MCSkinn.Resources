@@ -1,0 +1,94 @@
+{
+    "$id": "http://schemas.inkore.net/app/mcskinn/packs/game/entity",
+    "title": "Game Entity Item",
+    "description": "An entry item MCSkinn will read first, which provides the model and texture information for the game.",
+    "type": "object",
+    "properties":
+    {
+        "identifier": { "type": "string" },
+        "description":
+        {
+            "type": "object",
+            "title": "Description",
+            "properties":
+            {
+                "displayName": { "type": "string" }
+            }
+        },
+
+        "data":
+        {
+            "type": "object",
+            "title": "Data URLs",
+            "description": "The data object that provides the model and texture information for the game. All the values is a string with '/'. The first part is the pack identifier (use `$%CURRENT_PACK%` to refer to the current pack), and the second part is the path to the file (with extension). These should be provided cause all the files are loaded lazily.",
+            "properties":
+            {
+                "templates":
+                {
+                    "type": "array",
+                    "items":
+                    {
+                        "type": "object",
+                        "properties":
+                        {
+                            "displayName": { "type": "string" },
+                            "texture":
+                            {
+                                "type": "string",
+                                "title": "Texture URL"
+                            }
+                        }
+                    }
+                },
+
+                "model":
+                {
+                    "type": [ "object", "string" ],
+                    "title": "Model File.",
+                    "properties":
+                    {
+                        "path":
+                        {
+                            "type": "string",
+                            "title": "The pack URI to the JSON file that contains the model"
+                        },
+                        "identifier":
+                        {
+                            "type": "string",
+                            "title": "The identifier of the model in the JSON file. When this is absent, the first model in the file is used."
+                        }
+                    },
+
+                    "required": [ "path" ]
+                },
+                "animations":
+                {
+                    "type": "string",
+                    "title": "Animations File URL"
+                },
+                "animations_controller":
+                {
+                    "type": "string",
+                    "title": "Animations Controller File URL"
+                },
+                "entity":
+                {
+                    "type": "string",
+                    "title": "Entity File URL"
+                },
+                "jigsaw":
+                {
+                    "type": "string"
+                }
+            },
+
+            "additionalProperties": false,
+            "required": [ "model" ]
+        }
+    },
+
+    "additionalProperties": false,
+    "required": [ "identifier", "data" ],
+    "allowTrailingCommas": true,
+    "allowComments": true
+}

@@ -1,0 +1,29 @@
+{
+    "$id": "http://schemas.inkore.net/app/mcskinn/packs/game/info",
+    "title": "Game Pack Info",
+    "description": "The information and main entry of a game pack.",
+    "type": "object",
+    "properties":
+    {
+        "identifier": { "type": "string" },
+        "type": { "type": "string", "const": "game" },
+
+        "description":
+        {
+            "displayName": { "type": "string" },
+            "descriptionKey": { "type": "string" },
+            "authors":
+            {
+                "type": "array",
+                "items": { "type": "string" }
+            },
+
+            "version": { "type": "string" }
+        }
+    },
+
+    "additionalProperties": false,
+    "required": [ "type", "identifier" ],
+    "allowTrailingCommas": true,
+    "allowComments": true
+}
