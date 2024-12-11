@@ -1,0 +1,21 @@
+{
+    "identifier": "mcskinn:steve_minimal",
+    "description":
+    {
+        "displayName": "{alex-minimal}"
+    },
+
+    "data":
+    {
+        "model": "steve_minimal.geo.json",
+        "jigsaw": "human_minimal.json",
+
+        "templates":
+        [
+            {
+                "displayName": "Steve",
+                "texture": "entity/steve_minimal.png"
+            },
+        ]
+    }
+}

@@ -81,20 +81,20 @@
                     "associatedObjects": [ { "bone": "head", "cube": 0 } ]
                 },
                 {
-                    "objects": [ { "bone": "body", "cube": 1 } ],
+                    "objects": [ ],
                     "textureArea": [ 20, 20, 8, 12 ],
                     "placement": [ 4, 8 ],
                     "associatedObjects": [ { "bone": "body", "cube": 0 } ]
                 },
                 // ---------
                 {
-                    "objects": [ { "bone": "rightArm", "cube": 1 } ],
+                    "objects": [ ],
                     "textureArea": [ 44, 20, 4, 12 ],
                     "placement": [ 0, 8, 4, 12 ],
                     "associatedObjects": [ { "bone": "rightArm", "cube": 0 } ]
                 },
                 {
-                    "objects": [ { "bone": "leftArm", "cube": 1 } ],
+                    "objects": [ ],
                     "textureArea": [ 44, 20, 4, 12 ],
                     "textureMirror": true,
                     "placement": [ 12, 8, 4, 12 ],
@@ -102,13 +102,13 @@
                 },
                 // ---------
                 {
-                    "objects": [ { "bone": "rightLeg", "cube": 1 } ],
+                    "objects": [ ],
                     "textureArea": [ 4, 20, 4, 12 ],
                     "placement": [ 4, 20, 4, 12 ],
                     "associatedObjects": [ { "bone": "rightLeg", "cube": 0 } ]
                 },
                 {
-                    "objects": [ { "bone": "leftLeg", "cube": 1 } ],
+                    "objects": [ ],
                     "textureArea": [ 4, 20, 4, 12 ],
                     "textureMirror": true,
                     "placement": [ 8, 20, 4, 12 ],

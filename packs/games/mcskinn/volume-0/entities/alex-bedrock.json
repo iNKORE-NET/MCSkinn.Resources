@@ -1,0 +1,57 @@
+{
+    "identifier": "mcskinn:alex-bedrock",
+    "description":
+    {
+        "displayName": "{alex-bedrock}"
+    },
+
+    "data":
+    {
+        "model": "alex-bedrock.geo.json",
+        "jigsaw": "human.json",
+
+        "templates":
+        [
+            {
+                "displayName": "Alex",
+                "texture": "entity/alex/alex.png"
+            },
+            {
+                "displayName": "Steve",
+                "texture": "entity/alex/steve.png"
+            },
+            {
+                "displayName": "Dummy",
+                "texture": "entity/alex/dummy.png"
+            },
+            {
+                "displayName": "Ari",
+                "texture": "entity/alex/ari.png"
+            },
+            {
+                "displayName": "Efe",
+                "texture": "entity/alex/efe.png"
+            },
+            {
+                "displayName": "Kai",
+                "texture": "entity/alex/kai.png"
+            },
+            {
+                "displayName": "Makena",
+                "texture": "entity/alex/makena.png"
+            },
+            {
+                "displayName": "Noor",
+                "texture": "entity/alex/noor.png"
+            },
+            {
+                "displayName": "Sunny",
+                "texture": "entity/alex/sunny.png"
+            },
+            {
+                "displayName": "Zuri",
+                "texture": "entity/alex/zuri.png"
+            },
+        ]
+    }
+}
