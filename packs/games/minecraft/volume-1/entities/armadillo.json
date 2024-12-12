@@ -1,25 +1,25 @@
 {
-    "identifier": "minecraft:allay",
+    "identifier": "minecraft:armadillo",
     "description":
     {
-        "displayName": "{entity.allay}"
+        "displayName": "{entity.armadillo}"
     },
 
     "data":
     {
         "model":
         {
-            "path": "entity/allay.geo.json",
+            "path": "entity/armadillo.geo.json",
         },
 
-        "animations": "allay.animation.json",
-        "animations_controller": "allay.animation_controller.json",
+        "animations": "armadillo.animation.json",
+        "animations_controller": "armadillo.animation_controller.json",
 
         "templates":
         [
             {
                 "displayName": "{default}",
-                "texture": "entity/allay.png",
+                "texture": "entity/armadillo.png",
             }
         ],
 
@@ -29,11 +29,11 @@
             [
                 {
                     "texture": "items/spawn_egg.png",
-                    "color": "#00daff"
+                    "color": "#ad716d"
                 },
                 {
                     "texture": "items/spawn_egg_overlay.png",
-                    "color": "#00adff"
+                    "color": "#824848"
                 }
             ]
         }

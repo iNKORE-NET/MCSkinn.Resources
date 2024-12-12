@@ -104,11 +104,6 @@
                     "type": "string",
                     "title": "Animations Controller File URL"
                 },
-                "entity":
-                {
-                    "type": "string",
-                    "title": "Entity File URL"
-                },
                 "jigsaw":
                 {
                     "type": "string"
