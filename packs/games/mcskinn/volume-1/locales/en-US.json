@@ -1,0 +1,31 @@
+{
+    "locale": "en-US",
+    "translations":
+    {
+        "part":
+        {
+            "head": "Head",
+            "headArmor": "Head Armor",
+            "body": "Body",
+            "bodyArmor": "Body Armor",
+            "rightArm": "Right Arm",
+            "rightArmArmor": "Right Arm Armor",
+            "leftArm": "Left Arm",
+            "leftArmArmor": "Left Arm Armor",
+            "rightLeg": "Right Leg",
+            "rightLegArmor": "Right Leg Armor",
+            "leftLeg": "Left Leg",
+            "leftLegArmor": "Left Leg Armor"
+        },
+
+        "entry":
+        {
+            "steve": "Steve",
+            "steveMinimal": "Steve (Minimal)",
+            "alex": "Alex",
+            "alexMinimal": "Alex (Minimal)",
+            "creeper": "Creeper",
+            "enderman": "Enderman"
+        }
+    }
+}

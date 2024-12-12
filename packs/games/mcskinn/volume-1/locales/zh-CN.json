@@ -1,0 +1,31 @@
+{
+    "locale": "zh-CN",
+    "translations":
+    {
+        "part":
+        {
+            "head": "头部",
+            "headArmor": "头部盔甲",
+            "body": "Body",
+            "bodyArmor": "身体盔甲",
+            "rightArm": "右臂",
+            "rightArmArmor": "右臂盔甲",
+            "leftArm": "左臂",
+            "leftArmArmor": "左臂盔甲",
+            "rightLeg": "右腿",
+            "rightLegArmor": "右腿盔甲",
+            "leftLeg": "左腿",
+            "leftLegArmor": "左腿盔甲"
+        },
+
+        "entry":
+        {
+            "steve": "Steve",
+            "steveMinimal": "Steve (旧版)",
+            "alex": "Alex",
+            "alexMinimal": "Alex (旧版)",
+            "creeper": "爬行者",
+            "enderman": "末影人"
+        }
+    }
+}

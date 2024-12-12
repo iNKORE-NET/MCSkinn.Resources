@@ -1,0 +1,80 @@
+{
+    "minecraft:geometry":
+    {
+        "bones":
+        {
+            "head":
+            {
+                "title": "{part.head}",
+                "cubes":
+                [
+                    {
+                        "title": "{part.head}",
+                        "titleFallback": "Head"
+                    },
+                    {
+                        "title": "{part.headArmor}",
+                        "titleFallback": "Head Armor"
+                    }
+                ]
+            },
+            "body":
+            {
+                "title": "{part.body}",
+                "cubes":
+                [
+                    {
+                        "title": "{part.body}",
+                        "titleFallback": "Body"
+                    }
+                ]
+            },
+            "leftArm":
+            {
+                "title": "{part.leftArm}",
+                "cubes":
+                [
+                    {
+                        "title": "{part.leftArm}",
+                        "titleFallback": "Left Arm"
+                    }
+                ]
+            },
+            "rightArm":
+            {
+                "title": "{part.rightArm}",
+                "cubes":
+                [
+                    {
+                        "title": "{part.rightArm}",
+                        "titleFallback": "Right Arm"
+                    }
+                ]
+            },
+            "leftLeg":
+            {
+                "title": "{part.leftLeg}",
+                "cubes":
+                [
+                    {
+                        "title": "{part.leftLeg}",
+                        "titleFallback": "Left Leg"
+                    }
+                ]
+            },
+            "rightLeg":
+            {
+                "title": "{part.rightLeg}",
+                "cubes":
+                [
+                    {
+                        "title": "{part.rightLeg}",
+                        "titleFallback": "Right Leg",
+
+                        "inflate": "+0.002"
+                    }
+                ]
+            }
+        }
+    }
+}

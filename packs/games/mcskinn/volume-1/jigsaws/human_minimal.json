@@ -1,0 +1,120 @@
+{
+    // This is for human - Steve, Alex and Alex Bedrock. Not suitable for minimal models.
+
+    "description":
+    {
+
+    },
+
+    "sections":
+    [
+        {
+            "identifier": "inside",
+            "canvasSize": [ 16, 32 ],
+            "texture": "entity/steve/steve.png",
+
+            "description":
+            {
+                "displayName": "{part.body}"
+            },
+
+            "blocks":
+            [
+                // ---------
+                {
+                    "objects": [ { "bone": "head", "cube": 0 } ],
+                    "textureArea": [ 8, 8, 8, 8 ],
+                    "placement": [ 4, 0 ],
+                    "associatedObjects": [ { "bone": "head", "cube": 1 } ]
+                },
+                {
+                    "objects": [ { "bone": "body", "cube": 0 } ],
+                    "textureArea": [ 20, 20, 8, 12 ],
+                    "placement": [ 4, 8 ],
+                    "associatedObjects": [ { "bone": "body", "cube": 1 } ]
+                },
+                // ---------
+                {
+                    "objects": [ { "bone": "rightArm", "cube": 0 } ],
+                    "textureArea": [ 44, 20, 4, 12 ],
+                    "placement": [ 0, 8, 4, 12 ],
+                    "associatedObjects": [ { "bone": "rightArm", "cube": 1 } ]
+                },
+                {
+                    "objects": [ { "bone": "leftArm", "cube": 0 } ],
+                    "textureArea": [ 36, 52, 4, 12 ],
+                    "placement": [ 12, 8, 4, 12 ],
+                    "associatedObjects": [ { "bone": "leftArm", "cube": 1 } ]
+                },
+                // ---------
+                {
+                    "objects": [ { "bone": "rightLeg", "cube": 0 } ],
+                    "textureArea": [ 4, 20, 4, 12 ],
+                    "placement": [ 4, 20, 4, 12 ],
+                    "associatedObjects": [ { "bone": "rightLeg", "cube": 1 } ]
+                },
+                {
+                    "objects": [ { "bone": "leftLeg", "cube": 0 } ],
+                    "textureArea": [ 20, 52, 4, 12 ],
+                    "placement": [ 8, 20, 4, 12 ],
+                    "associatedObjects": [ { "bone": "leftLeg", "cube": 1 } ]
+                },
+            ]
+        },
+        {
+            "identifier": "armor",
+            "canvasSize": [ 16, 32 ],
+            "texture": "models/armor/diamond_1.png",
+
+            "description":
+            {
+                "displayName": "{part.armor}"
+            },
+
+            "blocks":
+            [
+                // ---------
+                {
+                    "objects": [ { "bone": "head", "cube": 1 } ],
+                    "textureArea": [ 8, 8, 8, 8 ],
+                    "placement": [ 4, 0 ],
+                    "associatedObjects": [ { "bone": "head", "cube": 0 } ]
+                },
+                {
+                    "objects": [ ],
+                    "textureArea": [ 20, 20, 8, 12 ],
+                    "placement": [ 4, 8 ],
+                    "associatedObjects": [ { "bone": "body", "cube": 0 } ]
+                },
+                // ---------
+                {
+                    "objects": [ ],
+                    "textureArea": [ 44, 20, 4, 12 ],
+                    "placement": [ 0, 8, 4, 12 ],
+                    "associatedObjects": [ { "bone": "rightArm", "cube": 0 } ]
+                },
+                {
+                    "objects": [ ],
+                    "textureArea": [ 44, 20, 4, 12 ],
+                    "textureMirror": true,
+                    "placement": [ 12, 8, 4, 12 ],
+                    "associatedObjects": [ { "bone": "leftArm", "cube": 0 } ]
+                },
+                // ---------
+                {
+                    "objects": [ ],
+                    "textureArea": [ 4, 20, 4, 12 ],
+                    "placement": [ 4, 20, 4, 12 ],
+                    "associatedObjects": [ { "bone": "rightLeg", "cube": 0 } ]
+                },
+                {
+                    "objects": [ ],
+                    "textureArea": [ 4, 20, 4, 12 ],
+                    "textureMirror": true,
+                    "placement": [ 8, 20, 4, 12 ],
+                    "associatedObjects": [ { "bone": "leftLeg", "cube": 0 } ]
+                },
+            ]
+        }
+    ]
+}

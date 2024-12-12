@@ -1,0 +1,61 @@
+{
+    "identifier": "mcskinn:steve",
+    "description":
+    {
+        "displayName": "{steve}"
+    },
+
+    "data":
+    {
+        "model": "steve.geo.json",
+
+        "jigsaw": "human.json",
+        "icon": "items/skull_steve.png",
+
+        "templates":
+        [
+            {
+                "displayName": "Steve",
+                "texture": "entity/steve/steve.png"
+            },
+            {
+                "displayName": "Alex",
+                "texture": "entity/steve/alex.png"
+            },
+            {
+                "displayName": "Dummy",
+                "texture": "entity/steve/dummy.png"
+            },
+            {
+                "displayName": "Ari",
+                "texture": "entity/steve/ari.png"
+            },
+            {
+                "displayName": "Efe",
+                "texture": "entity/steve/efe.png"
+            },
+            {
+                "displayName": "Kai",
+                "texture": "entity/steve/kai.png"
+            },
+            {
+                "displayName": "Makena",
+                "texture": "entity/steve/makena.png"
+            },
+            {
+                "displayName": "Noor",
+                "texture": "entity/steve/noor.png"
+            },
+            {
+                "displayName": "Sunny",
+                "texture": "entity/steve/sunny.png"
+            },
+            {
+                "displayName": "Zuri",
+                "texture": "entity/steve/zuri.png"
+            },
+        ],
+
+        // "thumbnail":
+    }
+}
