@@ -8,7 +8,9 @@
     "data":
     {
         "model": "steve_minimal.geo.json",
+
         "jigsaw": "human_minimal.json",
+        "icon": "items/skull_steve.png",
 
         "templates":
         [

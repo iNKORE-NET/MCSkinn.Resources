@@ -8,7 +8,9 @@
     "data":
     {
         "model": "alex_minimal.geo.json",
+
         "jigsaw": "human_minimal.json",
+        "icon": "items/skull_alex.png",
 
         "templates":
         [

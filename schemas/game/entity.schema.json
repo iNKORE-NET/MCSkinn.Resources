@@ -41,6 +41,12 @@
                     }
                 },
 
+                "icon":
+                {
+                    "type": "string",
+                    "title": "Icon File URL"
+                },
+
                 "model":
                 {
                     "type": [ "object", "string" ],

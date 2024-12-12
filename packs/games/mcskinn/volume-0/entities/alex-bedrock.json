@@ -8,7 +8,9 @@
     "data":
     {
         "model": "alex-bedrock.geo.json",
+
         "jigsaw": "human.json",
+        "icon": "items/skull_alex.png",
 
         "templates":
         [
