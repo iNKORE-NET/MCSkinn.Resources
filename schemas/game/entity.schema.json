@@ -43,8 +43,35 @@
 
                 "icon":
                 {
-                    "type": "string",
-                    "title": "Icon File URL"
+                    "type": [ "object", "string" ],
+                    "title": "Icon File URL or Object",
+
+                    "properties":
+                    {
+                        "layers":
+                        {
+                            "type": "array",
+                            "items":
+                            {
+                                "type": "object",
+                                "properties":
+                                {
+                                    "texture":
+                                    {
+                                        "type": "string",
+                                        "title": "Texture URL"
+                                    },
+
+                                    "color":
+                                    {
+                                        "type": "string",
+                                        "title": "Color in hex format",
+                                        "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 },
 
                 "model":

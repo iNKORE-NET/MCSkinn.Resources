@@ -9,20 +9,35 @@
     {
         "model":
         {
-            "path": "%CURRENT_PACK%/models/entity/allay.geo.json",
+            "path": "entity/allay.geo.json",
             "identifier": "geometry.allay"
         },
 
-        "animations": "%CURRENT_PACK%/animations/allay.animation.json",
-        "animations_controller": "%CURRENT_PACK%/animations_controllers/allay.animation_controller.json",
-        "entity": "%CURRENT_PACK%/models/entity/allay.entity.json",
+        "animations": "allay.animation.json",
+        "animations_controller": "allay.animation_controller.json",
+        "entity": "entity/allay.entity.json",
 
         "templates":
         [
             {
                 "displayName": "{default}",
-                "texture": "%CURRENT_PACK%/textures/allay.png",
+                "texture": "entity/allay.png",
             }
-        ]
+        ],
+
+        "icon":
+        {
+            "layers":
+            [
+                {
+                    "texture": "items/spawn_egg.png",
+                    "color": "#00daff"
+                },
+                {
+                    "texture": "items/spawn_egg_overlay.png",
+                    "color": "#00adff"
+                }
+            ]
+        }
     }
 }
