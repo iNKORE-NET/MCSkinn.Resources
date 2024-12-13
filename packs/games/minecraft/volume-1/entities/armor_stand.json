@@ -1,0 +1,28 @@
+{
+    "identifier": "minecraft:armor_stand",
+    "description":
+    {
+        "displayName": "{entity.armor_stand}"
+    },
+
+    "data":
+    {
+        "model":
+        {
+            "path": "entity/armor_stand.geo.json",
+        },
+
+        "animations": "armor_stand.animation.json",
+        "animations_controller": "armor_stand.animation_controller.json",
+
+        "templates":
+        [
+            {
+                "displayName": "{default}",
+                "texture": "entity/armor_stand.png",
+            }
+        ],
+
+        "icon": "items/armor_stand.png"
+    }
+}
