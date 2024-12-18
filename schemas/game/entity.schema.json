@@ -107,6 +107,44 @@
                 "jigsaw":
                 {
                     "type": "string"
+                },
+
+
+                "thumbnail":
+                {
+                    "type": "object",
+                    "description": "The thumbnail of the entity, which will be displayed in the skin list and Create-New-Skin screen.",
+                    "properties":
+                    {
+                        "layers":
+                        {
+                            "description": "The layers of the thumbnail. The first layer is the bottom layer, and the last layer is the top layer. The canvas will be 28x28 in pixels.",
+                            "type": "array",
+                            "items":
+                            {
+                                "type": "object",
+                                "properties":
+                                {
+                                    "textureArea":
+                                    {
+                                        "$ref": "../common.json#/definitions/type_rect",
+                                        "description": "The rect of the texture that fills this layer. The value must have 4 items - [x, y, width, height]."
+                                    },
+                                    "placement":
+                                    {
+                                        "type": "array",
+                                        "items": { "type": "number" },
+                                        "description": "Which location to put this block into the canvas. Length must be 2 or 4. If there're 4 items, they will be - [x, y, width, height]. If 2 items found, they will be - [x, y], and the width and height will be picked from textureArea property.",
+                                        "anyOf":
+                                        [
+                                            { "minItems": 2, "maxItems": 2 },
+                                            { "minItems": 4, "maxItems": 4 }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             },
 

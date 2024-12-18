@@ -12,6 +12,7 @@
         "jigsaw": "human.json",
         "icon": "items/skull_steve.png",
 
+
         "templates":
         [
             {
@@ -56,6 +57,19 @@
             },
         ],
 
-        // "thumbnail":
+        "thumbnail":
+        {
+            "layers":
+            [
+                {
+                    "textureArea": [ 8, 8, 8, 8 ],
+                    "placement": [ 2, 2, 24, 24 ]
+                },
+                {
+                    "textureArea": [ 40, 8, 8, 8 ],
+                    "placement": [ 0, 0, 28, 28 ]
+                }
+            ]
+        }
     }
 }
