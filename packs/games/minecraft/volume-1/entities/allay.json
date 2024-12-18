@@ -19,7 +19,7 @@
         [
             {
                 "displayName": "{default}",
-                "texture": "entity/allay.png",
+                "texture": "entity/allay/allay.png",
             }
         ],
 
