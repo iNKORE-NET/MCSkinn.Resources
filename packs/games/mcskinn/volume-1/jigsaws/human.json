@@ -15,7 +15,7 @@
 
             "description":
             {
-                "displayName": "{part.body}"
+                "displayName": "{section.body}"
             },
 
             "blocks":
@@ -68,7 +68,7 @@
 
             "description":
             {
-                "displayName": "{part.armor}"
+                "displayName": "{section.armor}"
             },
 
             "blocks":
