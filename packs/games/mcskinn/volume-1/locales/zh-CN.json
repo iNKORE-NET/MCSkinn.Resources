@@ -1,31 +1,23 @@
 {
-    "locale": "zh-CN",
-    "translations":
-    {
-        "part":
-        {
-            "head": "头部",
-            "headArmor": "头部盔甲",
-            "body": "Body",
-            "bodyArmor": "身体盔甲",
-            "rightArm": "右臂",
-            "rightArmArmor": "右臂盔甲",
-            "leftArm": "左臂",
-            "leftArmArmor": "左臂盔甲",
-            "rightLeg": "右腿",
-            "rightLegArmor": "右腿盔甲",
-            "leftLeg": "左腿",
-            "leftLegArmor": "左腿盔甲"
-        },
-
-        "entry":
-        {
-            "steve": "Steve",
-            "steveMinimal": "Steve (旧版)",
-            "alex": "Alex",
-            "alexMinimal": "Alex (旧版)",
-            "creeper": "爬行者",
-            "enderman": "末影人"
-        }
-    }
+    "$timestamp": 1735964388737,
+    "entity.alex-bedrock-minimal": "Alex 基岩版 (传统)",
+    "entity.alex-bedrock": "Alex 基岩版",
+    "entity.alex-minimal": "Alex (传统)",
+    "entity.alex": "Alex",
+    "entity.steve-minimal": "Steve (传统)",
+    "entity.steve": "Steve",
+    "part.arm-left-armor": "左臂护甲",
+    "part.arm-left": "左臂",
+    "part.arm-right-armor": "右臂护甲",
+    "part.arm-right": "右臂",
+    "part.body-armor": "身体护甲",
+    "part.body": "身体",
+    "part.head-armor": "头部护甲",
+    "part.head": "头部",
+    "part.leg-left-armor": "左腿护甲",
+    "part.leg-left": "左腿",
+    "part.leg-right-armor": "右腿护甲",
+    "part.leg-right": "右腿",
+    "section.armor": "护甲",
+    "section.body": "身体"
 }

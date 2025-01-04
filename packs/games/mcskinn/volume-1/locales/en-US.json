@@ -1,31 +1,23 @@
 {
-    "locale": "en-US",
-    "translations":
-    {
-        "part":
-        {
-            "head": "Head",
-            "headArmor": "Head Armor",
-            "body": "Body",
-            "bodyArmor": "Body Armor",
-            "rightArm": "Right Arm",
-            "rightArmArmor": "Right Arm Armor",
-            "leftArm": "Left Arm",
-            "leftArmArmor": "Left Arm Armor",
-            "rightLeg": "Right Leg",
-            "rightLegArmor": "Right Leg Armor",
-            "leftLeg": "Left Leg",
-            "leftLegArmor": "Left Leg Armor"
-        },
-
-        "entry":
-        {
-            "steve": "Steve",
-            "steveMinimal": "Steve (Minimal)",
-            "alex": "Alex",
-            "alexMinimal": "Alex (Minimal)",
-            "creeper": "Creeper",
-            "enderman": "Enderman"
-        }
-    }
+    "$timestamp": 1735964388630,
+    "entity.alex-bedrock-minimal": "Alex Bedrock (Legacy)",
+    "entity.alex-bedrock": "Alex Bedrock",
+    "entity.alex-minimal": "Alex (Legacy)",
+    "entity.alex": "Alex",
+    "entity.steve-minimal": "Steve (Legacy)",
+    "entity.steve": "Steve",
+    "part.arm-left-armor": "Left Arm Armor",
+    "part.arm-left": "Left Arm",
+    "part.arm-right-armor": "Right Arm Armor",
+    "part.arm-right": "Right Arm",
+    "part.body-armor": "Body Armor",
+    "part.body": "Body",
+    "part.head-armor": "Head Armor",
+    "part.head": "Head",
+    "part.leg-left-armor": "Left Leg Armor",
+    "part.leg-left": "Left Leg",
+    "part.leg-right-armor": "Right Leg Armor",
+    "part.leg-right": "Right Leg",
+    "section.armor": "Armor",
+    "section.body": "Body"
 }
