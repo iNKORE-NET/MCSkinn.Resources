@@ -2,7 +2,7 @@
     "identifier": "mcskinn:steve",
     "description":
     {
-        "displayName": "{steve}"
+        "displayName": "{entity.steve}"
     },
 
     "data":

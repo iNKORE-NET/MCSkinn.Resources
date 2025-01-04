@@ -2,7 +2,7 @@
     "identifier": "mcskinn:steve_minimal",
     "description":
     {
-        "displayName": "{steve-minimal}"
+        "displayName": "{entity.steve-minimal}"
     },
 
     "data":

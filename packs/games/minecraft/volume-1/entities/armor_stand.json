@@ -2,7 +2,7 @@
     "identifier": "minecraft:armor_stand",
     "description":
     {
-        "displayName": "{entity.armor_stand}"
+        "displayName": "{entity.armor-stand}"
     },
 
     "data":

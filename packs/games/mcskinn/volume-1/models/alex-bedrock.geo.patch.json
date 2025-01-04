@@ -13,7 +13,7 @@
                         "titleFallback": "Head"
                     },
                     {
-                        "title": "{part.headArmor}",
+                        "title": "{part.head-armor}",
                         "titleFallback": "Head Armor"
                     }
                 ]
@@ -28,7 +28,7 @@
                         "titleFallback": "Body"
                     },
                     {
-                        "title": "{part.bodyArmor}",
+                        "title": "{part.body-armor}",
                         "titleFallback": "Body Armor",
                         "inflate": "+0.005"
                     }
@@ -36,15 +36,15 @@
             },
             "leftArm":
             {
-                "title": "{part.leftArm}",
+                "title": "{part.arm-left}",
                 "cubes":
                 [
                     {
-                        "title": "{part.leftArm}",
+                        "title": "{part.arm-left}",
                         "titleFallback": "Left Arm"
                     },
                     {
-                        "title": "{part.leftArmArmor}",
+                        "title": "{part.arm-left-armor}",
                         "titleFallback": "Left Arm Armor",
 
                         "inflate": "+0.01"
@@ -53,15 +53,15 @@
             },
             "rightArm":
             {
-                "title": "{part.rightArm}",
+                "title": "{part.arm-right}",
                 "cubes":
                 [
                     {
-                        "title": "{part.rightArm}",
+                        "title": "{part.arm-right}",
                         "titleFallback": "Right Arm"
                     },
                     {
-                        "title": "{part.rightArmArmor}",
+                        "title": "{part.arm-right-armor}",
                         "titleFallback": "Right Arm Armor",
 
                         "inflate": "+0.01"
@@ -70,15 +70,15 @@
             },
             "leftLeg":
             {
-                "title": "{part.leftLeg}",
+                "title": "{part.leg-left}",
                 "cubes":
                 [
                     {
-                        "title": "{part.leftLeg}",
+                        "title": "{part.leg-left}",
                         "titleFallback": "Left Leg"
                     },
                     {
-                        "title": "{part.leftLegArmor}",
+                        "title": "{part.leg-left-armor}",
                         "titleFallback": "Left Leg Armor",
 
                         // "inflate": "+0.005"
@@ -87,17 +87,17 @@
             },
             "rightLeg":
             {
-                "title": "{part.rightLeg}",
+                "title": "{part.leg-right}",
                 "cubes":
                 [
                     {
-                        "title": "{part.rightLeg}",
+                        "title": "{part.leg-right}",
                         "titleFallback": "Right Leg",
 
                         "inflate": "+0.002"
                     },
                     {
-                        "title": "{part.rightLegArmor}",
+                        "title": "{part.leg-right-armor}",
                         "titleFallback": "Right Leg Armor",
 
                         // "inflate": "+0.005"

@@ -13,7 +13,7 @@
                         "titleFallback": "Head"
                     },
                     {
-                        "title": "{part.headArmor}",
+                        "title": "{part.head-armor}",
                         "titleFallback": "Head Armor"
                     }
                 ]
@@ -31,44 +31,44 @@
             },
             "leftArm":
             {
-                "title": "{part.leftArm}",
+                "title": "{part.arm-left}",
                 "cubes":
                 [
                     {
-                        "title": "{part.leftArm}",
+                        "title": "{part.arm-left}",
                         "titleFallback": "Left Arm"
                     }
                 ]
             },
             "rightArm":
             {
-                "title": "{part.rightArm}",
+                "title": "{part.arm-right}",
                 "cubes":
                 [
                     {
-                        "title": "{part.rightArm}",
+                        "title": "{part.arm-right}",
                         "titleFallback": "Right Arm"
                     }
                 ]
             },
             "leftLeg":
             {
-                "title": "{part.leftLeg}",
+                "title": "{part.leg-left}",
                 "cubes":
                 [
                     {
-                        "title": "{part.leftLeg}",
+                        "title": "{part.leg-left}",
                         "titleFallback": "Left Leg"
                     }
                 ]
             },
             "rightLeg":
             {
-                "title": "{part.rightLeg}",
+                "title": "{part.leg-right}",
                 "cubes":
                 [
                     {
-                        "title": "{part.rightLeg}",
+                        "title": "{part.leg-right}",
                         "titleFallback": "Right Leg",
 
                         "inflate": "+0.002"

@@ -2,7 +2,7 @@
     "identifier": "mcskinn:alex_minimal",
     "description":
     {
-        "displayName": "{alex-minimal}"
+        "displayName": "{entity.alex-minimal}",
     },
 
     "data":

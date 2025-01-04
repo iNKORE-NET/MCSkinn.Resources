@@ -2,7 +2,7 @@
     "identifier": "mcskinn:alex-bedrock",
     "description":
     {
-        "displayName": "{alex-bedrock}"
+        "displayName": "{entity.alex-bedrock}"
     },
 
     "data":
