@@ -15,17 +15,17 @@
         {
             "type": "brush",
             "path": "brushes/particles",
-            "displayName": "{particles}",
+            "displayName": "Particles",
         },
         {
             "type": "brush",
             "path": "brushes/geometric",
-            "displayName": "{geometric}",
+            "displayName": "Geometric",
         },
         {
             "type": "brush",
             "path": "brushes/common",
-            "displayName": "{common}",
+            "displayName": "Common",
         },
 
 
@@ -33,12 +33,12 @@
         {
             "type": "swatch",
             "path": "swatches/common",
-            "displayName": "{common}",
+            "displayName": "Common",
         },
         {
             "type": "swatch",
             "path": "swatches/community",
-            "displayName": "{common}",
+            "displayName": "Community",
         }
     ]
 }
