@@ -1,0 +1,41 @@
+{
+    "identifier": "minecraft:armadillo",
+    "description":
+    {
+        "displayName": "{entity.armadillo}"
+    },
+
+    "data":
+    {
+        "model":
+        {
+            "path": "entity/armadillo.geo.json",
+        },
+
+        "animations": "armadillo.animation.json",
+        "animations_controller": "armadillo.animation_controller.json",
+
+        "templates":
+        [
+            {
+                "displayName": "{default}",
+                "texture": "entity/armadillo.png",
+            }
+        ],
+
+        "icon":
+        {
+            "layers":
+            [
+                {
+                    "texture": "items/spawn_egg.png",
+                    "color": "#ad716d"
+                },
+                {
+                    "texture": "items/spawn_egg_overlay.png",
+                    "color": "#824848"
+                }
+            ]
+        }
+    }
+}

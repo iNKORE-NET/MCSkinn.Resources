@@ -1,0 +1,14 @@
+{
+    "identifier": "minecraft",
+    "description": 
+    {
+        "displayName": "Minecraft",
+        "description": "The vanilla Minecraft experience. Assets from the game Minecraft is owned by Mojang Studios. We do not claim ownership, or make any profit from them. Not affiliated or approved by Mojang Studios.",
+        "authors": 
+        [
+            "Mojang Studios",
+            "Yoojun Zhou"
+        ],
+        "version": "1.21.30.3"
+    }
+}

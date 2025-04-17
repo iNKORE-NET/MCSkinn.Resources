@@ -1,0 +1,41 @@
+{
+    "identifier": "minecraft:allay",
+    "description":
+    {
+        "displayName": "{entity.allay}"
+    },
+
+    "data":
+    {
+        "model":
+        {
+            "path": "entity/allay.geo.json",
+        },
+
+        "animations": "allay.animation.json",
+        "animations_controller": "allay.animation_controller.json",
+
+        "templates":
+        [
+            {
+                "displayName": "{default}",
+                "texture": "entity/allay/allay.png",
+            }
+        ],
+
+        "icon":
+        {
+            "layers":
+            [
+                {
+                    "texture": "items/spawn_egg.png",
+                    "color": "#00daff"
+                },
+                {
+                    "texture": "items/spawn_egg_overlay.png",
+                    "color": "#00adff"
+                }
+            ]
+        }
+    }
+}

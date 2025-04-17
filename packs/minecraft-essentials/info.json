@@ -1,0 +1,11 @@
+{
+    "identifier": "minecraft-essentials",
+
+    "description":
+    {
+        "displayName": "Minecraft Essentials",
+        "descriptionKey": "Built-in Minecraft essentials pack. Assets from the game Minecraft is owned by Mojang Studios. We do not claim ownership, or make any profit from them. Not affiliated or approved by Mojang Studios.",
+        "authors": [ "Yoojun Zhou", "Mojang Studios" ],
+        "version": "1.0.0"
+    },
+}
